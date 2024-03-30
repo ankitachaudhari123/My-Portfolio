@@ -1,0 +1,26 @@
+.nav-bar-box{
+    width: 90%;
+    height: 600px;
+    background: #1c1b23;
+    margin-top: 40px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.nav-bar-items{
+    color: rgb(140, 137, 137);
+    list-style: none;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.nav-bar-text{
+    color: rgb(140, 137, 137);
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.nav-bar-social-items{
+    color: rgb(140, 137, 137);
+    list-style: none;
+    font-size: 16px;
+    margin-top: 25px;
+}

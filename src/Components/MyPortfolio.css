@@ -1,0 +1,14 @@
+.main-box{
+    width: 100%;
+    height: 695px;
+    display: inline-flex;
+}
+.nav-bar-section{
+    width: 20%;
+    height: 695px;
+    background: #14131a;
+}
+.my-info-section{
+    width: 80%;
+    background: plum;
+}
