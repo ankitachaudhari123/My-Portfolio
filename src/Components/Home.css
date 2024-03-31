@@ -1,0 +1,17 @@
+.home-section{
+    width: 100%;
+    height: 695px;
+    background-image: url();
+}
+.self-name{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    margin-top: 15%;
+}
+.self-qualification-into{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: -70px!important;
+}

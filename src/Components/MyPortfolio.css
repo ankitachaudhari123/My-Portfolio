@@ -8,7 +8,12 @@
     height: 695px;
     background: #14131a;
 }
-.my-info-section{
+.my-portfolio{
     width: 80%;
-    background: plum;
+    height: 100vh;
+    overflow-y: auto ;
+}
+.my-info-section{
+    width: 100%;
+    background: #14131a;
 }
