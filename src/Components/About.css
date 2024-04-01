@@ -2,38 +2,17 @@
     width: 100%;
     height: 650px;
 }
-.heading-div{
-    width: 100%;
-    height: 80px;
-    display: inline-flex;
-}
-.heading-name-div{
-    width: 20%;
-    height: 80px;
-    display: inline-flex;
-}
-.heading-hr-div{
+.about-info-div{
     width: 80%;
-    height: 80px;
+    height: 200px;
 }
-.heading-name{
-    font-size: 50px;
-    margin-top: -1px;
-    margin-left: 30px;
+.about-info{
     color: white;
+    font-size: 20px;
+    margin-top: 30px;
 }
-.heading-hr{
-    width: 99%;
-    height: 2px;
-    background: white;
-    border: 1px solid white;
-    margin-top: 35px;
-}
-.dot-div{
-    width: 10px;
-    height: 10px;
-    background: rgb(140, 137, 137);;
-    margin-top: 45px;
-    margin-left: 8px;
-    border-radius: 50%;
+.about-info-box{
+    width: 95%;
+    height: 340px;
+    background: paleturquoise;
 }

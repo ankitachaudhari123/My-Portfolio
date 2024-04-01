@@ -3,6 +3,7 @@ import './MyPortfolio.css'
 import NavBar from './NavBar'
 import Home from './Home'
 import About from './About'
+import Project from './Project'
 
 const MyPortfolio = () => {
   return (
@@ -16,6 +17,7 @@ const MyPortfolio = () => {
         <div className='my-info-section'>
           <Home/>
           <About/>
+          <Project/>
         </div>
         </div>
     </div>
