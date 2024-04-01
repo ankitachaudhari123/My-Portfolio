@@ -11,20 +11,38 @@ const Project = () => {
         <div className='my-project-div'>
             <div className='my-project-div1'>
                 <div className='my-project-box1'>
-                    <div className='hover-box'>
+                  <div className='my-project-img'>
 
-                    </div>
-                </div>
+                  </div>
+                  <div className='my-project-description'>
+
+                  </div>
+                 </div>
                 <div className='my-project-box2'>
+                  <div className='my-project-img'>
 
+                  </div>
+                  <div className='my-project-description'>
+
+                  </div>
                 </div>
             </div>
             <div className='my-project-div2'>
             <div className='my-project-box1'>
+            <div className='my-project-img'>
 
             </div>
-            <div className='my-project-box2'>
+           <div className='my-project-description'>
 
+           </div>
+            </div>
+            <div className='my-project-box2'>
+            <div className='my-project-img'>
+
+            </div>
+            <div className='my-project-description'>
+              
+            </div>
             </div>
             </div>
         </div>

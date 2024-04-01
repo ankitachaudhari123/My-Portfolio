@@ -14,5 +14,11 @@
 .about-info-box{
     width: 95%;
     height: 340px;
-    background: paleturquoise;
+    display: inline-flex;
+}
+.info-box{
+    width: 33.4%;
+    height: 340px;
+    background: purple;
+    border: 3px solid red;
 }

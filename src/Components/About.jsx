@@ -18,6 +18,15 @@ const About = () => {
             </div>
          
          <div className='about-info-box'>
+          <div className='info-box'>
+
+          </div>
+          <div className='info-box'>
+
+          </div>
+          <div className='info-box'>
+
+          </div>
          </div>  
          </center>
         </div>
