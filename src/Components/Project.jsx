@@ -1,52 +1,43 @@
 import React from 'react'
 import './Project.css'
-import Heading2 from './Heading2'
 
 const Project = () => {
   return (
     <>
     <section>
-    <div className='project-section'>
-        <Heading2/>
+      <div className='project-section'>
+        <div className='heading2-div'>
+          <div className='heading2-hr-div'>
+            <hr className='heading2-hr'></hr>
+          </div>
+          <div className='heading2-name-div'>
+            <h1 className='heading2-name'>Project</h1>
+            <div className='dot2-div'></div>
+          </div>
+        </div>
         <div className='my-project-div'>
-            <div className='my-project-div1'>
-                <div className='my-project-box1'>
-                  <div className='my-project-img'>
-
-                  </div>
-                  <div className='my-project-description'>
-
-                  </div>
-                 </div>
-                <div className='my-project-box2'>
-                  <div className='my-project-img'>
-
-                  </div>
-                  <div className='my-project-description'>
-
-                  </div>
-                </div>
-            </div>
-            <div className='my-project-div2'>
+          <div className='my-project-div1'>
             <div className='my-project-box1'>
-            <div className='my-project-img'>
-
-            </div>
-           <div className='my-project-description'>
-
-           </div>
+              <div className='my-project-img'></div>
+              <div className='my-project-description'></div>
             </div>
             <div className='my-project-box2'>
-            <div className='my-project-img'>
-
+              <div className='my-project-img'></div>
+              <div className='my-project-description'></div>
             </div>
-            <div className='my-project-description'>
-              
+          </div>
+          <div className='my-project-div2'>
+            <div className='my-project-box1'>
+              <div className='my-project-img'></div>
+              <div className='my-project-description'></div>
             </div>
+            <div className='my-project-box2'>
+              <div className='my-project-img'></div>
+              <div className='my-project-description'></div>
             </div>
-            </div>
+          </div>
         </div>
-    </div>
+      </div>
     </section>   
     </>
   )

@@ -4,6 +4,8 @@ import NavBar from './NavBar'
 import Home from './Home'
 import About from './About'
 import Project from './Project'
+import Experience from './Experience'
+import Contact from './Contact'
 
 const MyPortfolio = () => {
   return (
@@ -18,6 +20,8 @@ const MyPortfolio = () => {
           <Home/>
           <About/>
           <Project/>
+          <Experience/>
+          <Contact/>
         </div>
         </div>
     </div>

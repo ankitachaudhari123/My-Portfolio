@@ -40,3 +40,41 @@
     height: 200px;
     background-color: rgb(246, 154, 169);
 }
+.heading2-div{
+    width: 100%;
+    height: 80px;
+    display: inline-flex;
+    margin-top: 20px;
+}
+.heading2-hr-div{
+    width: 80%;
+    height: 80px;
+}
+.heading2-name-div{
+    width: 20%;
+    height: 80px;
+    display: inline-flex;
+}
+.heading2-hr{
+    width: 96%;
+    height: 2px;
+    background: white;
+    border: 1px solid white;
+    margin-top: 35px;
+    margin-left: 3.8%;
+}
+
+.heading2-name{
+    font-size: 50px;
+    margin-top: -1px;
+    margin-left: 30px;
+    color: white;
+}
+.dot2-div{
+    width: 10px;
+    height: 10px;
+    background: rgb(140, 137, 137);;
+    margin-top: 45px;
+    margin-left: 8px;
+    border-radius: 50%;
+}

@@ -1,3 +1,45 @@
 .experience-section{
-    
+    width: 100%;
+    height: 460px;
+}
+.heading3-div{
+    width: 100%;
+    height: 80px;
+    display: inline-flex;
+}
+.heading3-name-div{
+    width: 30%;
+    height: 80px;
+    display: inline-flex;
+}
+.heading3-hr-div{
+    width: 70%;
+    height: 80px;
+}
+.heading3-name{
+    font-size: 50px;
+    margin-top: -1px;
+    margin-left: 30px;
+    color: white;
+}
+.dot3-div{
+    width: 10px;
+    height: 10px;
+    background: rgb(140, 137, 137);;
+    margin-top: 45px;
+    margin-left: 8px;
+    border-radius: 50%;
+}
+.heading3-hr{
+    width: 99%;
+    height: 2px;
+    background: white;
+    border: 1px solid white;
+    margin-top: 35px;
+}
+.experience-info-div{
+    width: 100%;
+    height: 320px;
+    background: red;
+    margin-top: 50px;
 }
