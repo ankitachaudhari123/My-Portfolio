@@ -4,7 +4,7 @@ import './Experience.css'
 const Experience = () => {
   return (
     <>
-      <section>
+      <section  id='experience'>
         <div className='experience-section'>
           <div className='heading3-div'>
             <div className='heading3-name-div'>

@@ -4,7 +4,7 @@ import './Project.css'
 const Project = () => {
   return (
     <>
-    <section>
+    <section id='project'>
       <div className='project-section'>
         <div className='heading2-div'>
           <div className='heading2-hr-div'>

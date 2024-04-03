@@ -22,16 +22,17 @@
     height: 80px;
 }
 .heading4-hr{
-    width: 99%;
+    width: 96%;
     height: 2px;
     background: white;
     border: 1px solid white;
     margin-top: 35px;
+    margin-left: 30px;
 }
 .heading4-name{
     font-size: 50px;
     margin-top: -1px;
-    margin-left: 30px;
+    margin-left: 10px;
     color: white;
 }
 .dot4-div{
@@ -43,8 +44,9 @@
     border-radius: 50%;
 }
 .contact-div{
-    width: 100%;
+    width: 95%;
     height: 470px;
     margin-top: 50px;
     background: pink;
+    margin-left: 30px;
 }

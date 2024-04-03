@@ -4,7 +4,7 @@ import './Home.css'
 const Home = () => {
   return (
     <>
-    <section>
+    <section id='home'>
       <div className='home-section'>
         <br></br>
         <h1 className='self-name'>Hey, I'm Ankita</h1>

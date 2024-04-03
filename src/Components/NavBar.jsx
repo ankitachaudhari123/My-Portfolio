@@ -7,17 +7,17 @@ const NavBar = () => {
       <ul>
         <br></br>
         <br></br>
-        <li className='nav-bar-items'>Home</li>
-        <li className='nav-bar-items'>About</li>
-        <li className='nav-bar-items'>Project</li>
-        <li className='nav-bar-items'>Experience</li>
-        <li className='nav-bar-items'>Contact</li>
+        <a href='#home' className='a-hrf'><li className='nav-bar-items'>Home</li></a>
+        <a href='#about' className='a-hrf'><li className='nav-bar-items'>About</li></a>
+        <a href='#project' className='a-hrf'><li className='nav-bar-items'>Project</li></a>
+        <a href='#experience' className='a-hrf'><li className='nav-bar-items'>Experience</li></a>
+        <a href='#contact' className='a-hrf'><li className='nav-bar-items'>Contact</li></a>
       </ul>
       <h5 className='nav-bar-text'>Socials</h5>
       <ul>
-        <li className='nav-bar-social-items'>Linkedin</li>
-        <li className='nav-bar-social-items'>GitHub</li>
-        <li className='nav-bar-social-items'>Instragram</li>
+      <a href='https://www.linkedin.com/in/ankita-chaudhari-6650b3273/' className='a-hrf'><li className='nav-bar-social-items'>Linkedin</li></a>
+      <a href='https://github.com/ankitachaudhari123' className='a-hrf'><li className='nav-bar-social-items'>GitHub</li></a>
+      <a href='https://www.instagram.com/an_kita_30/' className='a-hrf'><li className='nav-bar-social-items'>Instragram</li></a>
       </ul>
     </div>
   )
