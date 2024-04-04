@@ -4,11 +4,10 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const form = useRef();
-    const sendEmail = (e) => {
-        e.preventDefault();
-    
-        emailjs
-          .sendForm('service_60lxjgt', 'template_pwrcfr1', form.current, {
+     const sendEmail = (e) => {
+      e.preventDefault();
+      emailjs
+      .sendForm('service_60lxjgt', 'template_pwrcfr1', form.current, {
             publicKey: 'HevVQmrZfqOBZ3NnWTBex',
           })
           .then(
@@ -45,7 +44,8 @@ const Contact = () => {
                         <input type="text" className='name' placeholder='Your Name' name="user_name"/>
                         <input type="email" className='email' placeholder='Your Email' name="user_email"/>
                         <textarea className='msg' name='message' rows="5" placeholder='Your Message'></textarea>
-                        <button type="submit" value="send" className="submitBtn">Submit</button>
+                        <input type="submit" value="send" className='submitBtn' />
+                        
                     </form>
                 </div>
                 </center>

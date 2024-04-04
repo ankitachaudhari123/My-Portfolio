@@ -1,4 +1,4 @@
-.nav-bar-box{
+.nav-bar-box-web{
     width: 90%;
     height: 600px;
     background: #282730;
@@ -27,3 +27,7 @@
 .a-hrf{
     text-decoration: none;
 }
+@media (max-width: 300px) {
+    
+  }
+  

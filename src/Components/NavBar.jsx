@@ -11,7 +11,8 @@ import { FaLaptopCode } from "react-icons/fa";
 
 const NavBar = () => {
   return (
-    <div className='nav-bar-box'>
+    <>
+    <div className='nav-bar-box-web'>
       <ul>
         <br></br>
         <br></br>
@@ -28,6 +29,12 @@ const NavBar = () => {
       <a href='https://www.instagram.com/an_kita_30/' className='a-hrf'><li className='nav-bar-social-items'><AiFillInstagram size="15px" />  Instragram</li></a>
       </ul>
     </div>
+
+    </>
+
+
+
+
   )
 }
 

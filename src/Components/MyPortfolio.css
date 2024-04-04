@@ -17,3 +17,12 @@
     width: 100%;
     background: #1c1a1e;
 }
+@media (max-width: 300px) {
+    .nav-bar-section{
+        display: none;
+    }
+    .my-portfolio{
+        width: 100%;
+        overflow-y: none ;
+    }
+}
