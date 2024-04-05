@@ -104,15 +104,15 @@
         height: 600px;
     }
     .heading4-hr-div{
-        width: 58%;
+        width: 52%;
     }
     .heading4-name-div{
-        width: 42%;
+        width: 48%;
         display: inline-flex;
     }
     .heading4-name{
-        font-size: 30px;
-        margin-top: 15px;
+        font-size: 45px;
+        margin-top: 3px;
     }
     .dot4-div{
         display: none;
@@ -123,7 +123,7 @@
         margin-left: 0px;
     }
     .contact-text{  
-        font-size: 16px;
+        font-size: 20px;
         text-align: left;
         font-weight: lighter;
         margin-top: 10px;
