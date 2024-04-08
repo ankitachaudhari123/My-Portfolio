@@ -9,7 +9,7 @@ const Home = () => {
       <div className='home-section'>
         <div className="mobile-view-nav-bar">
           <br />
-          <TbMenuDeep color='white' size="30px"/>
+          <TbMenuDeep color='white' size="50px"/>
         </div>
       
         <br></br>

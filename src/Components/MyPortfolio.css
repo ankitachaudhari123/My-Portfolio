@@ -12,6 +12,8 @@
     width: 80%;
     height: 100vh;
     overflow-y: scroll;
+
+    background: red;
 }
 .my-info-section{
     width: 100%;
