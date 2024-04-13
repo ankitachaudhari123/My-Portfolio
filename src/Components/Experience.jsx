@@ -15,9 +15,11 @@ const Experience = () => {
              <hr className='heading3-hr'></hr>
             </div>
           </div>
+          <center>
           <div className='experience-info-div'>
 
           </div>
+          </center>
         </div>
       </section>
     </>

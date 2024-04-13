@@ -1,25 +1,29 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 .main-box{
     width: 100%;
-    height: 695px;
+    height: 100vh;
     display: inline-flex;
 }
 .nav-bar-section{
     width: 20%;
-    height: 695px;
+    height: 100vh;
     background: #1c1a1e;
 }
 .my-portfolio{
     width: 80%;
     height: 100vh;
-    overflow-y: scroll;
-
-    background: red;
 }
 .my-info-section{
     width: 100%;
+    height: 100vh;
     background: #1c1a1e;
+    overflow-x: hidden;
 }
-@media (max-width: 450px) {
+@media (max-width: 920px) {
     .main-box{
         width: 100%;
         height: 100vh;
@@ -29,6 +33,5 @@
     }
     .my-portfolio{
         width: 100%;
-        overflow-x: hidden;
     }
 }

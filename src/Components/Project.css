@@ -1,6 +1,11 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 .project-section{
     width: 100%;
-    height: 1100px;
+    height: 1190px;
 }
 .my-project-div{
     width: 95%;
@@ -36,7 +41,7 @@
     border-radius: 20px;
 }
 .my-project-description{
-    width: 100%;
+    width: 95%;
     height: 200px;
     background-color: rgb(246, 154, 169);
 }
@@ -66,7 +71,7 @@
 .heading2-name{
     font-size: 50px;
     margin-top: -1px;
-    margin-left: 20px;
+    margin-left: 30px;
     color: white;
 }
 .dot2-div{
@@ -77,43 +82,29 @@
     margin-left: 8px;
     border-radius: 50%;
 }
-.project-view-btn{
-    border: none;
-    border-radius: 0.5rem;
-    margin: 1rem;
-    padding: 0.75rem 3.5rem;
-    margin-top: -20px;
-    margin-left: 84%;
-    cursor: pointer;
+.view-all-project-btn-div{
+    width: 100%;
+    height: 100px;
 }
-@media (max-width: 450px) {
+.view-all-project-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    margin-top: 50px;
+    margin-left: 80%;
+}
+.heading2-hr-div-2{
+    display: none;
+}
+.heading2-hr-2{
+    display: none;
+}
+@media (max-width: 768px) {
     .project-section{
         width: 100%;
-        height: 1590px;
-    }
-    .heading2-div{
-        height: 80px;
-        margin-top: 20px;
-    }
-    .heading2-hr-div{
-        width: 59%;
-    }
-    .heading2-name-div{
-        width: 44%;
-    }
-    .heading2-hr{
-    width: 100%;
-    margin-top: 45px;
-    margin-left: -4px;
-    
-    }
-    .heading2-name{
-    font-size: 45px;
-    margin-left: 0px;
-    margin-top: 13px;
-    }
-    .dot2-div{
-        display: none;
+        height: 1620px;
     }
     .my-project-div1{
         width: 100%;
@@ -122,15 +113,13 @@
     }
     .my-project-box1{
         width: 100%;
-       height: 450px; 
-       margin-left: -3px;
-       margin-top: -80px;
+       height: 350px; 
+       margin-left: 0px;
     }
     .my-project-box2{
         width: 100%;
-        height: 450px; 
-        margin-left: -3px;
-        margin-top: -80px;
+        height: 350px; 
+        margin-left: 0px;
     }
     .my-project-div2{
         width: 100%;
@@ -138,16 +127,61 @@
         display: contents;
     }
     .my-project-div{
-        margin-top: 100px;
-        margin-left: 5px;
+        margin-left: 0px;
+        height: 1400px;
     }
     .my-project-img{
+        width: 100%;
         height: 180px;
-        margin-left: 3px;
     }
     .my-project-description{
         width: 95%;
         height: 150px;
-        margin-left: 15px;
+        margin-left: 0px;
+    }
+    .view-all-project-btn-div{
+        height: 90px;
+    }
+    .view-all-project-btn{
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 1280px) {
+    .heading2-div{
+        height: 75px;
+        margin-top: 0px;
+        display: block;
+    }
+    .heading2-hr-div-2{
+        display: block;
+        width: 100%;
+        height: 10px;
+    }
+    .heading2-name-div{
+        width: 100%;
+        height: 65px;
+    }
+    .heading2-hr-2{
+        display: block;
+        width: 96%;
+        height: 2px;
+        background: white;
+        border: 1px solid white;
+        margin-left: 2%;
+    }
+    .heading2-name{
+    margin-left: 20px;
+    margin-top: -5px;
+    }
+    .dot2-div{
+        margin-top: 40px;
+    }
+    .heading2-hr-div{
+        display: none;
+    }
+    .heading2-hr{
+        display: none;
     }
 }

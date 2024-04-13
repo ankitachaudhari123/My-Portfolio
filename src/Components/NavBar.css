@@ -1,6 +1,11 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 .nav-bar-box-web{
     width: 90%;
-    height: 600px;
+    height: 90vh;
     background: #282730;
     margin-top: 40px;
     margin-left: 15px;
@@ -10,7 +15,8 @@
     color: rgb(140, 137, 137);
     list-style: none;
     font-size: 16px;
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 .nav-bar-text{
     color: rgb(140, 137, 137);
@@ -22,7 +28,8 @@
     color: rgb(140, 137, 137);
     list-style: none;
     font-size: 16px;
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 .a-hrf{
     text-decoration: none;

@@ -1,3 +1,8 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 .experience-section{
     width: 100%;
     height: 460px;
@@ -8,17 +13,17 @@
     display: inline-flex;
 }
 .heading3-name-div{
-    width: 25%!important;
+    width: 27%;
     height: 80px;
     display: inline-flex;
 }
 .heading3-hr-div{
-    width: 75%!important;
+    width: 73%;
     height: 80px;
 }
 .heading3-name{
-    font-size: 45px!important;
-    margin-top: -2px!important;
+    font-size: 50px;
+    margin-top: -1px;
     margin-left: 30px;
     color: white;
 }
@@ -36,45 +41,48 @@
     background: white;
     border: 1px solid white;
     margin-top: 35px;
-    margin-right: 40px;
+    margin-left: 0%;
 }
 .experience-info-div{
     width: 95%;
     height: 320px;
     background: red;
     margin-top: 50px;
-    margin-left: 25px;
 }
-@media (max-width: 450px) {
-   .heading3-name{
-    font-size: 30px;
-    margin-left: 5px;
-    margin-top: 10px;
-   } 
-   .heading3-name-div{
-    width: 55%;
-   }
-   .heading3-hr-div{
-    width: 45%;
-   }
-   .experience-info-div{
-    width: 95%;
-    height: 320px;
-    background: red;
-    margin-top: 5px;
-    margin-left: 8px;
-   }
-  .experience-section{
-    width: 100%;
-    height: 440px;
-   }
-   .dot3-div{
-    display: none;
-   }
-   .heading3-div{
-    margin-top: 30px;
-   }
+@media (max-width: 600px) {
+    .experience-section{
+        width: 100%;
+        height: 460px;
+    }
+    .experience-info-div{
+        width: 97%;
+        height: 350px;
+        background: red;
+        margin-top: 30px;
+    }
 }
-@media (min-width: 450px) {
-
+@media (max-width: 1280px) {
+    .heading3-div{
+        width: 100%;
+        height: 75px;
+        display: block;
+        margin-top: 30px;
+    }
+    .heading3-name-div{
+        width: 100%;
+        height: 65px;
+    }
+    .heading3-hr-div{
+        width: 100%;
+        height: 10px;
+        margin-top: -35px;
+    }
+    .heading3-name{
+        margin-left: 20px;
+        margin-top: -5px;
+    }
+    .heading3-hr{
+        width: 96%;
+        margin-left: 2%;
+    }
 }

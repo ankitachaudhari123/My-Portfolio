@@ -32,9 +32,12 @@ const Contact = () => {
                     <h1 className='heading4-name'>Contact</h1>
                     <div className='dot4-div'></div>
                 </div>
+                <div className='heading4-hr-div-2'>
+                    <hr className='heading4-hr-2'></hr>
+                </div>
             </div>
             <div className='contact-div'>
-                <center>
+             <center>
                 <div className="contact-text-div">
                     <p className='contact-text'>Please fill out the form below to discuss any work opportunities.</p>
                 </div>
@@ -48,7 +51,7 @@ const Contact = () => {
                         
                     </form>
                 </div>
-                </center>
+             </center>
             </div>
         </div>
     </section>
