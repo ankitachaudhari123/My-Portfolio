@@ -7,8 +7,12 @@
     width: 90%;
     height: 90vh;
     background: #282730;
-    margin-top: 40px;
-    margin-left: 15px;
+    /* margin-top: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 15px; */
     border-radius: 10px;
 }
 .nav-bar-items{
@@ -16,12 +20,12 @@
     list-style: none;
     font-size: 16px;
     margin-top: 20px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 .nav-bar-text{
     color: rgb(140, 137, 137);
     font-size: 18px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-top: 50px;
 }
 .nav-bar-social-items{
@@ -29,7 +33,7 @@
     list-style: none;
     font-size: 16px;
     margin-top: 20px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 .a-hrf{
     text-decoration: none;

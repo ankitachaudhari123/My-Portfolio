@@ -6,12 +6,16 @@ import { IoLogoLinkedin } from "react-icons/io5";
 import { TbBrandGithubFilled } from "react-icons/tb";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaPhone } from "react-icons/fa6";
-import { FaAward } from "react-icons/fa";
+import { FaAward} from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
 
 const NavBar = () => {
+
+
+
   return (
     <>
+     
     <div className='nav-bar-box-web'>
       <ul>
         <br></br>
@@ -29,6 +33,7 @@ const NavBar = () => {
       <a href='https://www.instagram.com/an_kita_30/' className='a-hrf'><li className='nav-bar-social-items'><AiFillInstagram size="15px" />  Instragram</li></a>
       </ul>
     </div>
+
 
     </>
 
