@@ -10,7 +10,7 @@
 .my-project-div{
     width: 95%;
     height: 925px;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 50px;
 }
 .my-project-div1{
@@ -34,7 +34,7 @@
   margin-left: 22px;
 }
 .my-project-img{
-    width: 96.4%;
+    width: 100%;
     height: 231px;
     background: pink;
     border: 10px solid gray;
@@ -66,12 +66,12 @@
     background: white;
     border: 1px solid white;
     margin-top: 35px;
-    margin-left: 3.8%;
+    margin-left: 3.3%;
 }
 .heading2-name{
     font-size: 50px;
     margin-top: -1px;
-    margin-left: 30px;
+    margin-left: 23px;
     color: white;
 }
 .dot2-div{
@@ -93,7 +93,7 @@
     border: none;
     background: white;
     margin-top: 50px;
-    margin-left: 80%;
+    margin-left: 83%;
 }
 .heading2-hr-div-2{
     display: none;
@@ -105,6 +105,7 @@
     .project-section{
         width: 100%;
         height: 1620px;
+        padding: 10px;
     }
     .my-project-div1{
         width: 100%;

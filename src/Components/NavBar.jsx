@@ -18,19 +18,17 @@ const NavBar = () => {
      
     <div className='nav-bar-box-web'>
       <ul>
-        <br></br>
-        <br></br>
-        <a href='#home' className='a-hrf'><li className='nav-bar-items'><IoHome size="15px"/>  Home</li></a>
-        <a href='#about' className='a-hrf'><li className='nav-bar-items'><FaUser size="15px"/>  About</li></a>
-        <a href='#project' className='a-hrf'><li className='nav-bar-items'><FaLaptopCode size="15px"/>  Project</li></a>
-        <a href='#experience' className='a-hrf'><li className='nav-bar-items'><FaAward size="15px"/>  Experience</li></a>
-        <a href='#contact' className='a-hrf'><li className='nav-bar-items'><FaPhone size="15px"/>  Contact</li></a>
+        <a href='#home' className='a-hrf'><li className='nav-bar-items'><IoHome size="20px"/> Home</li></a>
+        <a href='#about' className='a-hrf'><li className='nav-bar-items'><FaUser size="20px"/>  About</li></a>
+        <a href='#project' className='a-hrf'><li className='nav-bar-items'><FaLaptopCode size="20px"/>  Project</li></a>
+        <a href='#experience' className='a-hrf'><li className='nav-bar-items'><FaAward size="20px"/>  Experience</li></a>
+        <a href='#contact' className='a-hrf'><li className='nav-bar-items'><FaPhone size="20px"/>  Contact</li></a>
       </ul>
       <h5 className='nav-bar-text'>Socials</h5>
       <ul>
-      <a href='https://www.linkedin.com/in/ankita-chaudhari-6650b3273/' className='a-hrf'><li className='nav-bar-social-items'><IoLogoLinkedin size="15px" />  Linkedin</li></a>
-      <a href='https://github.com/ankitachaudhari123' className='a-hrf'><li className='nav-bar-social-items'><TbBrandGithubFilled size="15px" />  GitHub</li></a>
-      <a href='https://www.instagram.com/an_kita_30/' className='a-hrf'><li className='nav-bar-social-items'><AiFillInstagram size="15px" />  Instragram</li></a>
+      <a href='https://www.linkedin.com/in/ankita-chaudhari-6650b3273/' className='a-hrf'><li className='nav-bar-social-items'><IoLogoLinkedin size="20px" />  Linkedin</li></a>
+      <a href='https://github.com/ankitachaudhari123' className='a-hrf'><li className='nav-bar-social-items'><TbBrandGithubFilled size="20px" />  GitHub</li></a>
+      <a href='https://www.instagram.com/an_kita_30/' className='a-hrf'><li className='nav-bar-social-items'><AiFillInstagram size="20px" />  Instragram</li></a>
       </ul>
     </div>
 

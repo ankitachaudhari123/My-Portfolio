@@ -7,7 +7,6 @@ import Project from './Project'
 import Experience from './Experience'
 import Contact from './Contact'
 import { FaBars, FaTimes} from "react-icons/fa";
-// import './NavBar.css'
 
 
 const MyPortfolio = () => {
