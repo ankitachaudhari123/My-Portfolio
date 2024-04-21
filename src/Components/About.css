@@ -23,9 +23,53 @@
 }
 .info-box{
     width: 33.4%;
-    height: 340px;
-    background: purple;
-    border: 3px solid rgb(255, 255, 255);
+    height: 300px;
+    border: 3px solid rgb(140, 137, 137);
+}
+.info-box-div-1{
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.info-box-div-2{
+    width: 100%;
+    height: 215px;
+    display: flex;
+}
+.about-info-icon-div{
+    width: 30%;
+    height: 120px;
+}
+.about-info-text-div{
+    width: 70%;
+    height: 120px;
+    color: white;
+    margin-top: 35px;
+    font-size: 25px;
+    text-align: left;
+    font-weight: 700;
+}
+.about-info-style-div{
+    width: 20%;
+    height: 215px;
+    color: white;
+}
+.about-skill-info-div{
+    width: 80%;
+    height: 215px;
+    color: white;
+}
+.straightline{
+    width: 2px;
+    height: 90px;
+    background: rgb(140, 137, 137);
+    margin-left: 30px;
+}
+.skill-div{
+    width:95%;
+    height: 70px;
+    margin-top: 30px;
+    margin-right: 27px;
 }
 .heading1-div{
     width: 100%;
@@ -66,7 +110,7 @@
 @media (max-width: 540px) {
     .about-section{
         width: 100%;
-        height: 880px;
+        height: 1330px;
         padding: 10px;
     }
     .about-info-div{
@@ -85,8 +129,24 @@
     }
     .info-box{
         width: 98%;
-        height: 150px;
+        height: 300px;
         margin-top: 10px;
+    }
+    .info-box-div-1{
+        width: 100%;
+        height: 120px;
+    }
+    .info-box-div-2{
+        width: 100%;
+        height: 175px;
+    }
+    .about-info-icon-div{
+        width: 30%;
+        height: 120px;
+    }
+    .about-info-text-div{
+        width: 70%;
+        height: 120px;
     }
 }
 @media (max-width: 1280px) {

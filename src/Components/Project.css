@@ -37,7 +37,7 @@
     width: 100%;
     height: 231px;
     background: pink;
-    border: 10px solid gray;
+    border: 10px solid rgb(140, 137, 137);;
     border-radius: 20px;
 }
 .my-project-description{
@@ -93,7 +93,7 @@
     border: none;
     background: white;
     margin-top: 50px;
-    margin-left: 83%;
+    margin-left: 81%;
 }
 .heading2-hr-div-2{
     display: none;

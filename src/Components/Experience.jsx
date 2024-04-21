@@ -17,7 +17,9 @@ const Experience = () => {
           </div>
           <center>
           <div className='experience-info-div'>
-
+            <div className='company-info-div'>
+              <div></div>
+            </div>
           </div>
           </center>
         </div>
