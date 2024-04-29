@@ -9,9 +9,9 @@
     background: #282730;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     border-radius: 10px;
+    justify-content: center;
 }
 .nav-bar-items{
     color: rgb(140, 137, 137);

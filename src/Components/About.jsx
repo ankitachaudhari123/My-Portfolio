@@ -54,7 +54,7 @@ const About = () => {
                <TbBrandJavascript size="70px" color='white'/>
               </div>
               <div className="about-info-text-div">
-                <span style={{boxShadow: "rgb(255, 0, 127) 0px -10px 0px inset ", whiteSpace: "nowrap"}}>Backend Dev </span><span>PHP</span>
+                <span style={{boxShadow: "rgb(255, 0, 127) 0px -10px 0px inset ", display: "inline"}}>Backend Dev </span><span>PHP</span>
               </div>
             </div>
             <div className="info-box-div-2">
