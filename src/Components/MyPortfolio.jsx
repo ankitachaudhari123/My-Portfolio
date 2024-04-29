@@ -36,7 +36,7 @@ const MyPortfolio = () => {
         )}
       </div>
         <div className={click ? 'nav-bar-section active' : 'nav-bar-section'}>
-            <NavBar/>
+            <NavBar onLinkClick={handleClick} />
         </div>
         <div className='my-portfolio'>
         <div className='my-info-section'>

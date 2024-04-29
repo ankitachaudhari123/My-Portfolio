@@ -8,9 +8,10 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaPhone } from "react-icons/fa6";
 import { FaAward} from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
+import { useState } from 'react';
 
-const NavBar = () => {
-
+const NavBar = ({onLinkClick}) => {
+ 
 
 
   return (
@@ -20,11 +21,11 @@ const NavBar = () => {
       <ul>
         <br></br>
         <br></br>
-        <a href='#home' className='a-hrf'><li className='nav-bar-items'><IoHome size="15px"/>  Home</li></a>
-        <a href='#about' className='a-hrf'><li className='nav-bar-items'><FaUser size="15px"/>  About</li></a>
-        <a href='#project' className='a-hrf'><li className='nav-bar-items'><FaLaptopCode size="15px"/>  Project</li></a>
-        <a href='#experience' className='a-hrf'><li className='nav-bar-items'><FaAward size="15px"/>  Experience</li></a>
-        <a href='#contact' className='a-hrf'><li className='nav-bar-items'><FaPhone size="15px"/>  Contact</li></a>
+        <a href='#home' className='a-hrf' onClick={onLinkClick}><li className='nav-bar-items'><IoHome size="15px"/>  Home</li></a>
+        <a href='#about' className='a-hrf' onClick={onLinkClick}><li className='nav-bar-items'><FaUser size="15px"/>  About</li></a>
+        <a href='#project' className='a-hrf' onClick={onLinkClick}><li className='nav-bar-items'><FaLaptopCode size="15px"/>  Project</li></a>
+        <a href='#experience' className='a-hrf' onClick={onLinkClick}><li className='nav-bar-items'><FaAward size="15px"/>  Experience</li></a>
+        <a href='#contact' className='a-hrf' onClick={onLinkClick}><li className='nav-bar-items'><FaPhone size="15px"/>  Contact</li></a>
       </ul>
       <h5 className='nav-bar-text'>Socials</h5>
       <ul>
@@ -41,6 +42,9 @@ const NavBar = () => {
 
 
   )
+
+
+ 
 }
 
 export default NavBar
