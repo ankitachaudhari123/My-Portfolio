@@ -29,9 +29,9 @@ const NavBar = ({onLinkClick}) => {
       </ul>
       <h5 className='nav-bar-text'>Socials</h5>
       <ul>
-      <a href='https://www.linkedin.com/in/ankita-chaudhari-6650b3273/' className='a-hrf'><li className='nav-bar-social-items'><IoLogoLinkedin size="15px" />  Linkedin</li></a>
-      <a href='https://github.com/ankitachaudhari123' className='a-hrf'><li className='nav-bar-social-items'><TbBrandGithubFilled size="15px" />  GitHub</li></a>
-      <a href='https://www.instagram.com/an_kita_30/' className='a-hrf'><li className='nav-bar-social-items'><AiFillInstagram size="15px" />  Instragram</li></a>
+      <a href='https://www.linkedin.com/in/ankita-chaudhari-6650b3273/' className='a-hrf'><li className='nav-bar-social-items'><IoLogoLinkedin size="20px" />  Linkedin</li></a>
+      <a href='https://github.com/ankitachaudhari123' className='a-hrf'><li className='nav-bar-social-items'><TbBrandGithubFilled size="20px" />  GitHub</li></a>
+      <a href='https://www.instagram.com/an_kita_30/' className='a-hrf'><li className='nav-bar-social-items'><AiFillInstagram size="20px" />  Instragram</li></a>
       </ul>
     </div>
 
