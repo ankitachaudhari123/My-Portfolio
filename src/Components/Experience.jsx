@@ -17,7 +17,6 @@ const Experience = () => {
           </div>
           <center>
           <div className='experience-info-div'>
-
             <div className="company-name-div">
               <div className="company-name">
                 <span className="company-name-text">DMS Computers and Technology</span>
@@ -39,10 +38,10 @@ const Experience = () => {
                  Moreover, I've broadened my expertise by constructing websites with comprehensive backend functionality, showcasing my proficiency across the entire development spectrum. 
                 <br/>
                 Presently, I'm proactively honing my abilities by delving into React, with a particular emphasis on advancing my prowess in backend development.
-              </span>
+              </span><br/><br/>
             </div>
             <div className="language-skills-names-div">
-            <span>HTML</span>
+              <span>HTML</span>
               <span>CSS</span>
               <span>PHP</span>
               <span>Ajax</span>
@@ -54,30 +53,6 @@ const Experience = () => {
               <span>Wix</span>
               <span>GitHub</span>
             </div>
-            {/* <div className="language-skills-names">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>PHP</span>
-              <span>Ajax</span>
-              <span>JavaScript</span>
-              <span>MySql</span>
-              <span>React</span>
-              <span>Boostrap</span>
-              <span>WordPress</span>
-              <span>Wix</span>
-              <span>GitHub</span>
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>PHP</span>
-              <span>Ajax</span>
-              <span>JavaScript</span>
-              <span>MySql</span>
-              <span>React</span>
-              <span>Boostrap</span>
-              <span>WordPress</span>
-              <span>Wix</span>
-              <span>GitHub</span>
-            </div> */}
           </div>
           </center>
         </div>

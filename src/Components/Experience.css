@@ -5,7 +5,7 @@
 }
 .experience-section{
     width: 100%;
-    height: 430px;
+    height: auto;
 }
 .heading3-div{
     width: 100%;
@@ -45,7 +45,7 @@
 }
 .experience-info-div{
     width: 95%;
-    height: 300px;
+    height: auto;
     margin-top: 50px;
 }
 .company-name-div{
@@ -81,7 +81,7 @@
 }
 .experience-info{
     width: 98%;
-    height: 160px;
+    height: auto;
     font-size: 16px;
     color: white;
     text-align: left;
@@ -104,42 +104,20 @@
 @media (max-width: 600px) {
     .experience-section{
         width: 100%;
-        height: 950px;
         padding: 10px;
-        background: green;
     }
     .experience-info-div{
         width: 97%;
-        height: 800px;
-        background: red;
         margin-top: 30px;
     }
-    .company-name-div{
-        height: 180px;
-    }
-    .company-name{
-        width: 100%;
-        height: 110px;
+    .experience-info{
+        width: 98%;
+        height: auto;
+        font-size: 16px;
+        color: white;
         text-align: left;
-        display: block;
     }
-    .company-duration{
-        height: 60px;
-    }
-    .company-name-text{
-        margin: 0;
-        font-size: 24px;
-    }
-    .jonning-year{
-       display: block;
-    }
-    .work-from-company{
-        margin-right: 50%;
-    }
-    .company-location{
-        margin-left: -56%;
-        display: block;
-    }
+   
 
 }
 @media (max-width: 1280px) {
@@ -166,4 +144,34 @@
         width: 96%;
         margin-left: 2%;
     }
+    .company-name-div{
+        height: 180px;
+    }
+    .company-name{
+        width: 98%;
+        height: 110px;
+        text-align: left;
+        display: block;
+    }
+    .company-duration{
+        width: 98%;
+        height: 60px;
+        text-align: left;
+        margin: 0;
+    }
+    .company-name-text{
+        margin: 0;
+        font-size: 24px;
+    }
+    .jonning-year{
+       display: block;
+    }
+    .work-from-company{
+        margin-right: 0%;
+    }
+    .company-location{
+        margin-left: 0%;
+        display: block;
+    }
+
 }
