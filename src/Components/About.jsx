@@ -65,7 +65,7 @@ const About = () => {
               </div>
               <div className='about-skill-info-div'>
                <div className='skill-div'>
-                 <p style={{textAlign:"left"}}>Passionate about UI/UX. Over 1 years of development experience in HTML, CSS, JS frameworks.</p>
+                 <p style={{textAlign:"left"}}>Passionate about Backend. Over 1 years of development experience in PHP & JavaScript</p>
                </div>
               </div>
             </div>
