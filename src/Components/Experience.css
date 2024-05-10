@@ -6,6 +6,7 @@
 .experience-section{
     width: 100%;
     height: auto;
+    padding: 30px;
 }
 .heading3-div{
     width: 100%;
@@ -24,7 +25,7 @@
 .heading3-name{
     font-size: 50px;
     margin-top: -1px;
-    margin-left: 30px;
+    margin-left: 0px;
     color: white;
 }
 .dot3-div{
@@ -36,15 +37,14 @@
     border-radius: 50%;
 }
 .heading3-hr{
-    width: 96%;
+    width: 100%;
     height: 2px;
     background: white;
     border: 1px solid white;
     margin-top: 35px;
-    margin-left: 0%;
 }
 .experience-info-div{
-    width: 95%;
+    width: 100%;
     height: auto;
     margin-top: 50px;
 }
@@ -58,21 +58,21 @@
 }
 .company-duration{
     width: 100%;
-    /* height: 40px; */
 }
 .company-name-text{
-    margin-right: 50%;
     color: white;
     font-size: 1.8rem;
+    margin-right: 60%;
 }
 .jonning-year{
     color: white;
     font-size: 16px;
+    margin-left: -8%;
 }
 .work-from-company{
     color: rgb(140, 137, 137);
     font-size: 1.2rem;
-    margin-right: 78%;
+    margin-right: 80%;
 }
 .company-location{
     color: white;
@@ -88,7 +88,6 @@
 }
 .language-skills-names-div{
     width: 100%;
-    /* height: 60px; */
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -118,8 +117,6 @@
         color: white;
         text-align: left;
     }
-   
-
 }
 @media (max-width: 1280px) {
     .heading3-div{
@@ -138,12 +135,12 @@
         margin-top: -35px;
     }
     .heading3-name{
-        margin-left: 20px;
+        margin-left: 0px;
         margin-top: -5px;
     }
     .heading3-hr{
-        width: 96%;
-        margin-left: 2%;
+        width: 100%;
+        margin-left: 0%;
     }
     .company-name-div{
         height: 180px;
@@ -166,6 +163,7 @@
     }
     .jonning-year{
        display: block;
+       margin: 0;
     }
     .work-from-company{
         margin-right: 0%;

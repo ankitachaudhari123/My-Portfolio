@@ -51,7 +51,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaPhone } from "react-icons/fa6";
 import { FaAward } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
-import { useState } from "react";
+import {useState} from "react";
 
 const NavBar = ({ closeNavbar }) => {
   const handleNavLinkClick = (event, id) => {

@@ -52,12 +52,6 @@ const Experience = () => {
               <span>WordPress</span>
               <span>Wix</span>
               <span>GitHub</span>
-              <span>GitHub</span>
-              <span>GitHub</span>
-              <span>GitHub</span>
-              <span>GitHub</span>
-              <span>GitHub</span>
-              <span>GitHub</span>
             </div>
           </div>
           </center>
