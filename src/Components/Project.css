@@ -18,21 +18,23 @@
     width: 100%;
     height: auto;
     display: inline-flex;
+    gap: 40px;
 }
 .my-project-div2{
     width: 100%;
     height: auto;
     margin-top: 20px;
     display: inline-flex;
+    gap: 40px;
 }
 .my-project-box1{
-    width: 49%;
+    width: 48%;
     height: auto;
 }
 .my-project-box2{
-    width: 49%;
+    width: 48%;
   height: auto;
-  margin-left: 22px;
+  
 }
 .my-project-img{
     width: 100%;
@@ -63,7 +65,7 @@
     font-size: 20px;
 }
 .line-1{
-    width: 32.5%;
+    width: 30%;
     height: 2px;
     border: 1px solid white;
     margin-top: 15px;
@@ -71,7 +73,7 @@
     background: white;
 }
 .line-2{
-    width: 38.1%;
+    width: 36%;
     height: 2px;
     border: 1px solid white;
     margin-top: 15px;
@@ -79,7 +81,7 @@
     background: white;
 }
 .line-3{
-    width: 65%;
+    width: 64%;
     height: 2px;
     border: 1px solid white;
     margin-top: 15px;
@@ -87,7 +89,7 @@
     background: white;
 }
 .line-4{
-    width: 56.9%;
+    width: 55%;
     height: 2px;
     border: 1px solid white;
     margin-top: 15px;
@@ -110,8 +112,9 @@
     flex-wrap: wrap;
 }
 .link-div{
-    width: 18%;
+    width: 16%;
     height: 40px;
+    text-align: right;
 }
 .description-div{
     width: 100%;
@@ -231,10 +234,11 @@
       display: none;
     }
     .line-3{
-        width: 41.7%;
+        display: none;
     }
     .line-4{
-        width: 28%;
+
+        display: none;
     }
     .language-and-link-div{
         width: 100%;
@@ -249,8 +253,7 @@
         width: 100%;
     }
     .description-div{
-        height: 150px;
-       
+        height: 150px; 
     }
 }
 @media (max-width: 1280px) {

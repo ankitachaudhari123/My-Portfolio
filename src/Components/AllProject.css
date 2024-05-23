@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card-main-div{
+    width: 100%;
+    height: auto;
+    background: #1c1a1e;
+    display: flex;
+    gap: 29px;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+}

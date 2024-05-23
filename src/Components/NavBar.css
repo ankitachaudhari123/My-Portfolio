@@ -3,6 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}  
 .nav-bar-box-web{
     width: 90%;
     height: 90vh;

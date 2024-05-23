@@ -4,6 +4,8 @@ import parasponsive from "../img/para-sponsive.png"
 import vegetable from "../img/vegetables-e-commerce-website.png";
 import omkarFarm from "../img/omkar-nature-farm.png";
 import royalImage from "../img/royal-indian-vivah.png";
+import { FaGithub } from "react-icons/fa";
+import { MdInsertLink } from "react-icons/md";
 
 const Project = () => {
   return (
@@ -44,7 +46,7 @@ const Project = () => {
                     <p>Ajax</p>
                   </div>
                   <div className="link-div">
-
+                    <h1><a href='https://github.com/ankitachaudhari123/Para_Sponsive.git' target="_blank"><FaGithub color='grey' size="22px"/></a></h1>
                   </div>
                 </div>
                 <div className="description-div">
@@ -72,7 +74,7 @@ const Project = () => {
                     <p>Ajax</p>
                   </div>
                   <div className="link-div">
-
+                   <h1><a href='https://github.com/ankitachaudhari123/E-Commerce-Website.git' target='_blank'><FaGithub color='grey' size="22px"/></a></h1>
                   </div>
                 </div>
                 <div className="description-div">
@@ -103,7 +105,7 @@ const Project = () => {
                     <p>Ajax</p>
                   </div>
                   <div className="link-div">
-
+                  <h1><a href='https://github.com/ankitachaudhari123/Omkar-Nature-Farm.git' target='_blank'><FaGithub color='grey' size="22px"/></a> <a href='http://omkarnaturefarm.com/' target='_blank'><MdInsertLink color='grey' size="25px" /></a></h1>
                   </div>
                 </div>
                 <div className="description-div">
@@ -128,7 +130,7 @@ const Project = () => {
                     <p>CSS</p>
                   </div>
                   <div className="link-div">
-
+                   <h1><a href='https://github.com/ankitachaudhari123' target='_blank'><FaGithub color='grey' size="22px"/></a> <a href='https://app.royalindianvivah.com/' target='_blank'><MdInsertLink color='grey' size="25px" /></a></h1>
                   </div>
                 </div>
                 <div className="description-div">
@@ -141,12 +143,9 @@ const Project = () => {
           </div>
         </div>
          <div className="view-all-project-btn-div">
-          <button className="view-all-project-btn">View All Project</button>
+          <a href='#'><button className="view-all-project-btn">View All Project</button></a>
         </div>
         </center>
-
-
-       
       </div>
     </section>   
     </>
