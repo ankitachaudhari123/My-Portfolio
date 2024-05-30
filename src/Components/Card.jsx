@@ -1,32 +1,32 @@
 import React from 'react'
 import './Card.css'
 
-const Card = () => {
+const Card = ({img,name,language1,language2,language3,language4,language5,language6,icon1,icon2,link1,link2,description}) => {
   return (
     <>
       <div className="card-contaner">
         <div className="card-img-div">
-         <img src="" alt="" />
+         <img src={img} alt={name} />
         </div>
         <div className="card-description-div">
           <div className='Card-name-div'>
-             <h4 className='card-text'></h4>
+             <h4 className='card-text'>{name}</h4>
           </div>
           <div className="card-language-and-link-div">
             <div className="card-language-div">
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
+              <p>{language1}</p>
+              <p>{language2}</p>
+              <p>{language3}</p>
+              <p>{language4}</p>
+              <p>{language5}</p>
+              <p>{language6}</p>
             </div>
             <div className="card-link-div">
-              <h1><a href=''></a> <a href=''></a></h1>
+              <h1><a href={link1}>{icon1}</a> <a href={link2}>{icon2}</a></h1>
             </div>
           </div>
           <div className="description-box">
-            <p></p>
+            <p>{description}</p>
           </div>
         </div>
       </div>

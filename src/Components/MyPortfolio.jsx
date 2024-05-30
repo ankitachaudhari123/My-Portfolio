@@ -7,8 +7,17 @@ import Project from './Project';
 import Experience from './Experience';
 import Contact from './Contact';
 import { FaBars, FaTimes } from "react-icons/fa";
+import AllProject from './AllProject';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+
 
 const MyPortfolio = () => {
+  const router = createBrowserRouter([
+    {
+      path:"/allproject",
+      element: <AllProject/>,
+    },
+  ]);
 
   const [click, setClick] = useState(false);
 
@@ -44,6 +53,8 @@ const MyPortfolio = () => {
           </div>
         </div>
       </div>
+
+      <RouterProvider router={router}/>
     </>
   )
 }
