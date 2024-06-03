@@ -125,7 +125,7 @@
         margin: 0%;
     }
     .contact-form{
-        justify-content: left;
+        justify-content: center;
         width: 90vw;
         max-width: 60rem;
     }
@@ -136,7 +136,7 @@
         max-width: 40rem;
         margin: 0.rem;
         padding: 0rem rem;
-        margin-right: 50px;
+        margin-right: 5px;
         border: 1px solid rgb(140, 137, 137);
     }
     .msg{
@@ -146,7 +146,7 @@
         max-width: 40rem;
         margin: 0rem;
         padding: 0rem rem;
-        margin-right: 45px;
+        margin-right: 0px;
         border: 1px solid rgb(140, 137, 137);
     }
     .submitBtn{

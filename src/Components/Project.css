@@ -171,6 +171,7 @@
     background: white;
     margin-top: 50px;
     margin-left: 87%;
+    cursor: pointer;
 }
 .heading2-hr-div-2{
     display: none;
@@ -296,7 +297,7 @@
         height: 80px;
     }
     .view-all-project-btn{
-        margin-top: 50px;
+        margin-top: 0px;
         margin-right: 0px;
         margin-left: 0px;
     }

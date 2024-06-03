@@ -8,7 +8,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaPhone } from "react-icons/fa6";
 import { FaAward } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
-import {useState} from "react";
+// import {useState} from "react";
 
 const NavBar = ({ closeNavbar }) => {
   const handleNavLinkClick = (event, id) => {
@@ -24,9 +24,7 @@ const NavBar = ({ closeNavbar }) => {
   return (
     <>
       <div className="nav-bar-box-web">
-        <ul>
-          <br></br>
-          <br></br>
+        <ul style={{marginTop:"-40%"}}>          
           <a href="#home" className="a-hrf" onClick={(e)=> handleNavLinkClick(e, 'home')}>
             <li className="nav-bar-items">
               <IoHome size="15px" /> Home

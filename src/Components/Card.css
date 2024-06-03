@@ -17,8 +17,8 @@
     object-fit: cover;
     width: 100%;
     transition: transform 0.7s ease 0s;
-   padding: 13px;
-   border-radius: 25px;
+    padding: 13px;
+    border-radius: 25px;
 }
 .card-description-div{
     width: 100%;
@@ -33,6 +33,7 @@
     color: white;
     font-size: 20px;
     text-align: left;
+    margin-top: 10px;
 }
 .card-language-and-link-div{
     width: 100%;
@@ -61,4 +62,10 @@
     text-align: left;
     color: white;
     margin-top: 20px;
+}
+@media (max-width: 1280px){
+    .card-contaner{
+        width: 100%;
+        height: auto;
+    }
 }

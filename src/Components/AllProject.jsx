@@ -43,7 +43,7 @@ const AllProject = () => {
       icon1:<FaGithub color='grey' size="22px"/>,
       icon2:<MdInsertLink color='grey' size="22px"/>,
       link1:"https://github.com/ankitachaudhari123",
-      link2:"",
+      link2:"https://potencia.ae/",
       description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit sunt ab reprehenderit ipsam possimus itaque eum vero distinctio ipsum accusamus, voluptatibus animi. Cumque, mollitia quas blanditiis cum magni natus?",
     },
     {
@@ -57,7 +57,7 @@ const AllProject = () => {
       language6:"Ajax",
       icon1:<FaGithub color='grey' size="22px"/>,
       icon2:"",
-      link1:"",
+      link1:"https://github.com/ankitachaudhari123/Agri_form",
       link2:"",
       description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit sunt ab reprehenderit ipsam possimus itaque eum vero distinctio ipsum accusamus, voluptatibus animi. Cumque, mollitia quas blanditiis cum magni natus?",
     },
@@ -73,7 +73,7 @@ const AllProject = () => {
       icon1:<FaGithub color='grey' size="22px"/>,
       icon2:<MdInsertLink color='grey' size="22px"/>,
       link1:"https://github.com/ankitachaudhari123",
-      link2:"",
+      link2:"https://yahwehinteriors.in/index",
       description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit sunt ab reprehenderit ipsam possimus itaque eum vero distinctio ipsum accusamus, voluptatibus animi. Cumque, mollitia quas blanditiis cum magni natus?",
     },
     {
@@ -87,7 +87,7 @@ const AllProject = () => {
       language6:"",
       icon1:<MdInsertLink color='grey' size="22px"/>,
       icon2:"",
-      link1:"",
+      link1:"http://www.nirmatra.com/login",
       link2:"",
       description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit sunt ab reprehenderit ipsam possimus itaque eum vero distinctio ipsum accusamus, voluptatibus animi. Cumque, mollitia quas blanditiis cum magni natus?",
     },
@@ -117,7 +117,7 @@ const AllProject = () => {
       language6:"Ajax",
       icon1:<FaGithub color='grey' size="22px"/>,
       icon2:"",
-      link1:"",
+      link1:"https://github.com/ankitachaudhari123/Grievance-Form",
       link2:"",
       description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit sunt ab reprehenderit ipsam possimus itaque eum vero distinctio ipsum accusamus, voluptatibus animi. Cumque, mollitia quas blanditiis cum magni natus?",
     },
@@ -177,6 +177,7 @@ const AllProject = () => {
           return <Card key={index} {...arrayData}/>
         })
       }
+      <br/><br />
     </div>
   )
 }

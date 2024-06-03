@@ -7,17 +7,30 @@
     height: auto;
     background: #1c1a1e;
     display: flex;
-    gap: 29px;
+    gap: 30px;
     flex-wrap: wrap;
     padding: 0px 50px;
 }
 .card-heading-div{
     width: 100%;
-    height: 100px;
+    height: auto;
+    margin-bottom: 50px;
 }
 .card-heading{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+@media (max-width: 1280px) {
+    .card-main-div{
+        padding: 0px 20px;
+    }
+    .card-heading{
+        margin-top: 30px;
+        color: white;
+        font-size: 45px;
+        margin-bottom: 0px;
+    }
 }

@@ -22,7 +22,7 @@ const Card = ({img,name,language1,language2,language3,language4,language5,langua
               <p>{language6}</p>
             </div>
             <div className="card-link-div">
-              <h1><a href={link1}>{icon1}</a> <a href={link2}>{icon2}</a></h1>
+              <h1><a href={link1} target='blank'>{icon1}</a> <a href={link2} target='blank'>{icon2}</a></h1>
             </div>
           </div>
           <div className="description-box">
