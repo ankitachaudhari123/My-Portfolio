@@ -72,7 +72,7 @@ const Project = () => {
                       <p>Ajax</p>
                     </div>
                     <div className="link-div">
-                      <h1><a href='https://github.com/ankitachaudhari123/E-Commerce-Website.git' target='_blank'><FaGithub color='grey' size="22px"/></a></h1>
+                      <h1><a href='https://github.com/ankitachaudhari123/E-Commerce-Website.git'><FaGithub color='grey' size="22px"/></a></h1>
                     </div>
                   </div>
                   <div className="description-div">
@@ -101,7 +101,7 @@ const Project = () => {
                       <p>Ajax</p>
                     </div>
                     <div className="link-div">
-                      <h1><a href='https://github.com/ankitachaudhari123/Omkar-Nature-Farm.git' target='_blank'><FaGithub color='grey' size="22px"/></a> <a href='http://omkarnaturefarm.com/' target='_blank'><MdInsertLink color='grey' size="25px" /></a></h1>
+                      <h1><a href='https://github.com/ankitachaudhari123/Omkar-Nature-Farm.git'><FaGithub color='grey' size="22px"/></a> <a href='http://omkarnaturefarm.com/'><MdInsertLink color='grey' size="25px" /></a></h1>
                     </div>
                   </div>
                   <div className="description-div">
@@ -124,7 +124,7 @@ const Project = () => {
                       <p>CSS</p>
                     </div>
                     <div className="link-div">
-                      <h1><a href='https://github.com/ankitachaudhari123' target='_blank'><FaGithub color='grey' size="22px"/></a> <a href='https://app.royalindianvivah.com/' target='_blank'><MdInsertLink color='grey' size="25px" /></a></h1>
+                      <h1><a href='https://github.com/ankitachaudhari123'><FaGithub color='grey' size="22px"/></a> <a href='https://app.royalindianvivah.com/'><MdInsertLink color='grey' size="25px" /></a></h1>
                     </div>
                   </div>
                   <div className="description-div">
