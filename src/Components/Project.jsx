@@ -46,7 +46,7 @@ const Project = () => {
                       <p>Ajax</p>
                     </div>
                     <div className="link-div">
-                      <h1><a href='https://github.com/ankitachaudhari123/Para_Sponsive.git' target="_blank" rel="noopener noreferrer"><FaGithub color='grey' size="22px"/></a></h1>
+                      <h1><a href='https://github.com/ankitachaudhari123/Para_Sponsive.git'><FaGithub color='grey' size="22px"/></a></h1>
                     </div>
                   </div>
                   <div className="description-div">
