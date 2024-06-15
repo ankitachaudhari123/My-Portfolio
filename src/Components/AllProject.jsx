@@ -27,7 +27,7 @@ const AllProject = () => {
       language6:"Ajax",
       icon1:<FaGithub color='grey' size="22px"/>,
       icon2:"",
-      link1:"",
+      link1:"https://github.com/ankitachaudhari123/Fashionable-Clothes.git",
       link2:"",
       description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit sunt ab reprehenderit ipsam possimus itaque eum vero distinctio ipsum accusamus, voluptatibus animi. Cumque, mollitia quas blanditiis cum magni natus?",
     },
