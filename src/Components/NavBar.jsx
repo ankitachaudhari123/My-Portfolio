@@ -8,16 +8,15 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaPhone } from "react-icons/fa6";
 import { FaAward } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
-// import {useState} from "react";
 
 const NavBar = ({ closeNavbar }) => {
   const handleNavLinkClick = (event, id) => {
-    event.preventDefault(); // Prevent the default behavior of the anchor tag
-    closeNavbar(); // Close the navbar if needed
+    event.preventDefault(); 
+    closeNavbar(); 
 
-    const section = document.getElementById(id); // Get the section by ID
+    const section = document.getElementById(id); 
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" }); // Smoothly scroll to the section
+      section.scrollIntoView({ behavior: "smooth" });
     }
   };
 
