@@ -182,22 +182,22 @@
 @media (max-width: 540px) {
     .project-section{
         width: 100%;
-        height: 2430px;
+        height: auto;
         padding: 10px;
     }
     .my-project-div1{
         width: 100%;
-        height: 450px;
+        height: auto;
         display: contents;
     }
     .my-project-box1{
         width: 100%;
-       height: 570px; 
+       height: auto; 
        margin-left: 0px;
     }
     .my-project-box2{
         width: 100%;
-        height: 540px; 
+        height: auto; 
         margin-left: 0px;
     }
     .my-project-div2{
@@ -207,7 +207,7 @@
     }
     .my-project-div{
         margin-left: 0px;
-        height: 2200px;
+        height: auto;
     }
     .my-project-img{
         width: 100%;

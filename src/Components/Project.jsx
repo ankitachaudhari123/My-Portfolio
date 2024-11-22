@@ -49,9 +49,9 @@ const Project = () => {
                       <h1><a href='https://github.com/ankitachaudhari123/Para_Sponsive.git'><FaGithub color='grey' size="22px"/></a></h1>
                     </div>
                   </div>
-                  <div className="description-div">
+                  {/* <div className="description-div">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit sunt ab reprehenderit ipsam possimus itaque eum vero distinctio ipsum accusamus, voluptatibus animi. Cumque, mollitia quas blanditiis cum magni natus?</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className='my-project-box2'>
@@ -75,9 +75,9 @@ const Project = () => {
                       <h1><a href='https://github.com/ankitachaudhari123/E-Commerce-Website.git'><FaGithub color='grey' size="22px"/></a></h1>
                     </div>
                   </div>
-                  <div className="description-div">
+                  {/* <div className="description-div">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit sunt ab reprehenderit ipsam possimus itaque eum vero distinctio ipsum accusamus, voluptatibus animi. Cumque, mollitia quas blanditiis cum magni natus?</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -104,9 +104,9 @@ const Project = () => {
                       <h1><a href='https://github.com/ankitachaudhari123/Omkar-Nature-Farm.git'><FaGithub color='grey' size="22px"/></a> <a href='http://omkarnaturefarm.com/'><MdInsertLink color='grey' size="25px" /></a></h1>
                     </div>
                   </div>
-                  <div className="description-div">
+                  {/* <div className="description-div">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit sunt ab reprehenderit ipsam possimus itaque eum vero distinctio ipsum accusamus, voluptatibus animi. Cumque, mollitia quas blanditiis cum magni natus?</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className='my-project-box2'>
@@ -127,9 +127,9 @@ const Project = () => {
                       <h1><a href='https://github.com/ankitachaudhari123'><FaGithub color='grey' size="22px"/></a> <a href='https://app.royalindianvivah.com/'><MdInsertLink color='grey' size="25px" /></a></h1>
                     </div>
                   </div>
-                  <div className="description-div">
+                  {/* <div className="description-div">
                     <p>Contributed to the development of Royal Indian Vivah, a comprehensive matrimony website. Using HTML, CSS, and Bootstrap, I crafted the frontend of the website, ensuring its responsiveness and aesthetic appeal.</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
