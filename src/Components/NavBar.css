@@ -23,7 +23,7 @@ html {
     margin-top: 20px;
 }
 .nav-bar-text{
-    color: rgb(140, 137, 137);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     margin-top: 50px;
     margin-right: 30px;
@@ -34,6 +34,14 @@ html {
     list-style: none;
     font-size: 17px;
     margin-top: 20px;
+}
+.nav-bar-items:hover{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+.nav-bar-social-items:hover{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
 }
 .a-hrf{
     text-decoration: none;
