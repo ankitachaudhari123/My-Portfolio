@@ -63,6 +63,13 @@
     color: white;
     margin-top: 20px;
 }
+@media (max-width: 540px) {
+    .card-link-div{
+        width: 17%;
+        height: auto;
+        text-align: right;
+    }
+}
 @media (max-width: 1280px){
     .card-contaner{
         width: 100%;
