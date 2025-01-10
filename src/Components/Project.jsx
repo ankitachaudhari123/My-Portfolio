@@ -1,8 +1,8 @@
 import React from 'react';
 import './Project.css';
+import getitsplit from "../img/get-it-split.png";
 import parasponsive from "../img/para-sponsive.png";
 import vegetable from "../img/vegetables-e-commerce-website.png";
-import omkarFarm from "../img/omkar-nature-farm.png";
 import royalImage from "../img/royal-indian-vivah.png";
 import { FaGithub } from "react-icons/fa";
 import { MdInsertLink } from "react-icons/md";
@@ -29,12 +29,34 @@ const Project = () => {
             <div className='my-project-div1'>
               <div className='my-project-box1'>
                 <div className='my-project-img'>
+                  <img src={getitsplit} alt="get-it-split" />
+                </div>
+                <div className='my-project-description'>
+                  <div className='project-name-div'>
+                    <h4 className='text'>Get It Split (Expense Tracking App)</h4>
+                    <hr className='line-1'/>
+                  </div>
+                  <div className="language-and-link-div">
+                    <div className="language-div">
+                      <p>PHP</p>
+                    </div>
+                    <div className="link-div">
+                      <h1><a href='https://github.com/ankitachaudhari123'><FaGithub color='grey' size="22px"/></a> <a href='https://getitsplit.in/'><MdInsertLink color='grey' size="25px" /></a></h1>
+                    </div>
+                  </div>
+                  {/* <div className="description-div">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit sunt ab reprehenderit ipsam possimus itaque eum vero distinctio ipsum accusamus, voluptatibus animi. Cumque, mollitia quas blanditiis cum magni natus?</p>
+                  </div> */}
+                </div>
+              </div>
+              <div className='my-project-box2'>
+                <div className='my-project-img'>
                   <img src={parasponsive} alt="para-sponsive" />
                 </div>
                 <div className='my-project-description'>
                   <div className='project-name-div'>
                     <h4 className='text'>Para Sponsive (E - commerce Website)</h4>
-                    <hr className='line-1'/>
+                    <hr className='line-2'/>
                   </div>
                   <div className="language-and-link-div">
                     <div className="language-div">
@@ -54,14 +76,16 @@ const Project = () => {
                   </div> */}
                 </div>
               </div>
-              <div className='my-project-box2'>
+            </div>
+            <div className='my-project-div2'>
+              <div className='my-project-box1'>
                 <div className='my-project-img'>
                   <img src={vegetable} alt="vegetables-e-commerce" />
                 </div>
                 <div className='my-project-description'>
                   <div className='project-name-div'>
                     <h4 className='text'>Vegefoods (E - commerce Website)</h4>
-                    <hr className='line-2'/>
+                    <hr className='line-3'/>
                   </div>
                   <div className="language-and-link-div">
                     <div className="language-div">
@@ -73,35 +97,6 @@ const Project = () => {
                     </div>
                     <div className="link-div">
                       <h1><a href='https://github.com/ankitachaudhari123/E-Commerce-Website.git'><FaGithub color='grey' size="22px"/></a></h1>
-                    </div>
-                  </div>
-                  {/* <div className="description-div">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit sunt ab reprehenderit ipsam possimus itaque eum vero distinctio ipsum accusamus, voluptatibus animi. Cumque, mollitia quas blanditiis cum magni natus?</p>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-            <div className='my-project-div2'>
-              <div className='my-project-box1'>
-                <div className='my-project-img'>
-                  <img src={omkarFarm} alt="omkar-nature-farm" />
-                </div>
-                <div className='my-project-description'>
-                  <div className='project-name-div'>
-                    <h4 className='text'>Omkar Nature Farm</h4>
-                    <hr className='line-3'/>
-                  </div>
-                  <div className="language-and-link-div">
-                    <div className="language-div">
-                      <p>HTML |</p>
-                      <p>CSS |</p>
-                      <p>JavaScript |</p>
-                      <p>MD Bootstrap |</p>
-                      <p>PHP |</p>
-                      <p>Ajax</p>
-                    </div>
-                    <div className="link-div">
-                      <h1><a href='https://github.com/ankitachaudhari123/Omkar-Nature-Farm.git'><FaGithub color='grey' size="22px"/></a> <a href='http://omkarnaturefarm.com/'><MdInsertLink color='grey' size="25px" /></a></h1>
                     </div>
                   </div>
                   {/* <div className="description-div">

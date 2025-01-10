@@ -11,7 +11,7 @@
 .my-project-div{
     width: 100%;
     height: auto;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 50px;
 }
 .my-project-div1{
@@ -65,7 +65,7 @@
     font-size: 20px;
 }
 .line-1{
-    width: 30%;
+    width: 38.9%;
     height: 2px;
     border: 1px solid white;
     margin-top: 15px;
@@ -73,7 +73,7 @@
     background: white;
 }
 .line-2{
-    width: 36%;
+    width: 33.1%;
     height: 2px;
     border: 1px solid white;
     margin-top: 15px;
@@ -81,7 +81,7 @@
     background: white;
 }
 .line-3{
-    width: 64%;
+    width: 38.8%;
     height: 2px;
     border: 1px solid white;
     margin-top: 15px;
@@ -89,7 +89,7 @@
     background: white;
 }
 .line-4{
-    width: 55%;
+    width: 56%;
     height: 2px;
     border: 1px solid white;
     margin-top: 15px;
@@ -112,7 +112,7 @@
     flex-wrap: wrap;
 }
 .link-div{
-    width: 16%;
+    width: 20%;
     height: 40px;
     text-align: right;
 }

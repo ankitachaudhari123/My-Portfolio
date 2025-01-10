@@ -8,12 +8,12 @@
 }
 .card-img-div{
     width: 100%;
-    height: 231px;
+    height: 280px;
     background: rgb(140, 137, 137);
     border-radius: 10px 10px 0 0;
 }
 .card-img-div img{
-    height: 231px;
+    height: 280px;
     object-fit: cover;
     width: 100%;
     transition: transform 0.7s ease 0s;

@@ -11,11 +11,22 @@ import yahwehInteriors from '../img/yahweh-interiors.png'
 import surveForm from '../img/sarve-form.png'
 import potencia from '../img/potencia.png'
 import suyashFashion from '../img/suyash-fashion.png'
+import getitsplit from '../img/get-it-split.png'
 import { FaGithub } from "react-icons/fa";
 import { MdInsertLink } from "react-icons/md";
 
 const AllProject = () => {
   const data =[
+    {
+      img:getitsplit,
+      name:"Get It Split",
+      language1:"PHP ",
+      icon1:<FaGithub color='grey' size="22px"/>,
+      icon2:<MdInsertLink color='grey' size="22px"/>,
+      link1:"https://github.com/ankitachaudhari123",
+      link2:"https://play.google.com/store/apps/details?id=com.getitsplit.getitsplit",
+      description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit sunt ab reprehenderit ipsam possimus itaque eum vero distinctio ipsum accusamus, voluptatibus animi. Cumque, mollitia quas blanditiis cum magni natus?",
+    },
     {
       img:suyashFashion,
       name:"Suyash Fashion - E-Commerce Website",
