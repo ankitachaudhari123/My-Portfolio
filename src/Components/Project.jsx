@@ -41,7 +41,7 @@ const Project = () => {
                       <p>PHP</p>
                     </div>
                     <div className="link-div">
-                      <h1><a href='https://github.com/ankitachaudhari123'><FaGithub color='grey' size="22px"/></a> <a href='https://getitsplit.in/'><MdInsertLink color='grey' size="25px" /></a></h1>
+                      <h1><a href='https://github.com/ankitachaudhari123'><FaGithub color='grey' size="22px"/></a> <a href='https://play.google.com/store/apps/details?id=com.getitsplit.getitsplit'><MdInsertLink color='grey' size="25px" /></a></h1>
                     </div>
                   </div>
                   {/* <div className="description-div">
