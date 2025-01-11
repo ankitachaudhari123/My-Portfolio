@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 
-const Card = ({img,name,language1,language2,language3,language4,language5,language6,icon1,icon2,link1,link2,description}) => {
+const Card = ({img,name,language1,language2,language3,language4,language5,language6,language7,icon1,icon2,icon3,link1,link2,link3,description}) => {
   return (
     <>
       <div className="card-contaner">
@@ -20,9 +20,10 @@ const Card = ({img,name,language1,language2,language3,language4,language5,langua
               <p>{language4}</p>
               <p>{language5}</p>
               <p>{language6}</p>
+              <p>{language7}</p>
             </div>
             <div className="card-link-div">
-              <h1><a href={link1} target='blank'>{icon1}</a> <a href={link2} target='blank'>{icon2}</a></h1>
+              <h1><a href={link1} target='blank'>{icon1}</a> <a href={link2} target='blank'>{icon2}</a> <a href={link3} target='blank'>{icon3}</a></h1>
             </div>
           </div>
           {/* <div className="description-box">

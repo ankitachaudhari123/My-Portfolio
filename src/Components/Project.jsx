@@ -7,6 +7,7 @@ import royalImage from "../img/royal-indian-vivah.png";
 import { FaGithub } from "react-icons/fa";
 import { MdInsertLink } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import { IoLogoGooglePlaystore } from "react-icons/io5";
 
 const Project = () => {
     return (
@@ -38,10 +39,13 @@ const Project = () => {
                   </div>
                   <div className="language-and-link-div">
                     <div className="language-div">
-                      <p>PHP</p>
+                      <p>PHP|</p>
+                      <p>Flutter|</p>
+                      <p>MySql</p>
                     </div>
                     <div className="link-div">
-                      <h1><a href='https://github.com/ankitachaudhari123'><FaGithub color='grey' size="22px"/></a> <a href='https://play.google.com/store/apps/details?id=com.getitsplit.getitsplit'><MdInsertLink color='grey' size="25px" /></a></h1>
+                      <h1><a href='https://github.com/ankitachaudhari123' target='blank'><FaGithub color='grey' size="22px"/></a> <a href='https://getitsplit.in/' target='blank'><MdInsertLink color='grey' size="25px" /></a> <a href='https://play.google.com/store/apps/details?id=com.getitsplit.getitsplit' target='blank'><IoLogoGooglePlaystore
+                      color='grey' size="22px" /></a></h1>
                     </div>
                   </div>
                   {/* <div className="description-div">
@@ -63,12 +67,13 @@ const Project = () => {
                       <p>HTML |</p>
                       <p>CSS |</p>
                       <p>JavaScript |</p>
-                      <p>MD Bootstrap |</p>
+                      <p>Bootstrap |</p>
                       <p>PHP |</p>
-                      <p>Ajax</p>
+                      <p>Ajax |</p>
+                      <p>MySql</p>
                     </div>
                     <div className="link-div">
-                      <h1><a href='https://github.com/ankitachaudhari123/Para_Sponsive.git'><FaGithub color='grey' size="22px"/></a></h1>
+                      <h1><a href='https://github.com/ankitachaudhari123/Para_Sponsive.git' target='blank'><FaGithub color='grey' size="22px"/></a></h1>
                     </div>
                   </div>
                   {/* <div className="description-div">
@@ -92,11 +97,13 @@ const Project = () => {
                       <p>HTML |</p>
                       <p>CSS |</p>
                       <p>JavaScript |</p>
+                      <p>Bootstrap |</p>
                       <p>PHP |</p>
-                      <p>Ajax</p>
+                      <p>Ajax |</p>
+                      <p>MySql</p>
                     </div>
                     <div className="link-div">
-                      <h1><a href='https://github.com/ankitachaudhari123/E-Commerce-Website.git'><FaGithub color='grey' size="22px"/></a></h1>
+                      <h1><a href='https://github.com/ankitachaudhari123/E-Commerce-Website.git' target='blank'><FaGithub color='grey' size="22px"/></a></h1>
                     </div>
                   </div>
                   {/* <div className="description-div">
@@ -119,7 +126,7 @@ const Project = () => {
                       <p>CSS</p>
                     </div>
                     <div className="link-div">
-                      <h1><a href='https://github.com/ankitachaudhari123'><FaGithub color='grey' size="22px"/></a> <a href='https://app.royalindianvivah.com/'><MdInsertLink color='grey' size="25px" /></a></h1>
+                      <h1><a href='https://github.com/ankitachaudhari123' target='blank'><FaGithub color='grey' size="22px"/></a> <a href='https://app.royalindianvivah.com/' target='blank'><MdInsertLink color='grey' size="25px" /></a></h1>
                     </div>
                   </div>
                   {/* <div className="description-div">

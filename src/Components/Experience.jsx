@@ -41,17 +41,19 @@ const Experience = () => {
               </span><br/><br/>
             </div>
             <div className="language-skills-names-div">
+              <span>PHP</span>
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>Flutter</span>
+              <span>GitHub</span>
+              <span>Git</span>
+              <span>MySql</span>
+              <span>Ajax</span>
               <span>HTML</span>
               <span>CSS</span>
-              <span>PHP</span>
-              <span>Ajax</span>
-              <span>JavaScript</span>
-              <span>MySql</span>
-              <span>React</span>
               <span>Boostrap</span>
               <span>WordPress</span>
               <span>Wix</span>
-              <span>GitHub</span>
             </div>
           </div>
           </center>
