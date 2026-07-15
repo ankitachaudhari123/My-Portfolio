@@ -1,0 +1,24 @@
+.typing-text {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.typing-text__bracket {
+  color: var(--text-muted);
+}
+
+.typing-text__content {
+  color: var(--accent-hot);
+  font-weight: 500;
+  min-width: 4px;
+  word-break: break-word;
+}
+
+@media (max-width: 480px) {
+  .typing-text {
+    justify-content: center;
+    text-align: center;
+  }
+}

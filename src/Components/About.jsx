@@ -1,104 +1,94 @@
-import React from 'react'
-import './About.css'
+import React from 'react';
+import './About.css';
+import SectionTitle from './SectionTitle';
+import AnimateOnScroll from './AnimateOnScroll';
+import { TECH_STACK } from '../data/techStack';
 import { ImHtmlFive2 } from "react-icons/im";
-import { SiReact } from "react-icons/si";
+import { SiFlutter } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
+
+const skills = [
+  {
+    icon: ImHtmlFive2,
+    title: "Websites",
+    tech: "HTML, CSS, JS, Ajax",
+    years: "4.7 years",
+    color: "#ec4899",
+    description: "Over 4.7 years building responsive, visually appealing websites with HTML, CSS, JavaScript, and Ajax.",
+  },
+  {
+    icon: SiFlutter,
+    title: "Apps",
+    tech: "Flutter, React",
+    years: "3.5 years",
+    color: "#f472b6",
+    description: "Over 3.5 years developing mobile and cross-platform apps with Flutter and React.",
+  },
+  {
+    icon: TbBrandJavascript,
+    title: "Software",
+    tech: "PHP, Node, MySQL",
+    years: "1.2 years",
+    color: "#ff2d95",
+    description: "Over 1.2 years building backend software with PHP, Node.js, and MySQL — learning PostgreSQL, Supabase, and MongoDB.",
+  },
+];
 
 const About = () => {
   return (
-    <>
-    <section id='about'>
-      <div className='about-section'>
-        <div className='heading1-div'>
-          <div className='heading1-name-div'>
-            <h1 className='heading1-name'>About</h1>
-            <div className='dot1-div'></div>
-          </div>
-          <div className='heading1-hr-div'>
-           <hr className='heading1-hr'></hr>
-          </div>
-       </div>
-       <center>
-         <div className='about-info-div'>
-           <br></br>
-           <h1 className='about-info'>I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly website. I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, JavaScript, Ajax, Wordpress, Wix , PHP and My-SQL.</h1>              
-         </div>
-         <div className='about-info-box'>
-          <div className='info-box'>
-            <div className="info-box-div-1">
-              <div className="about-info-icon-div">
-                <br/><br/>
-               <ImHtmlFive2 size="50px" color='white'/>
-              </div>
-              <div className="about-info-text-div">
-                <span style={{boxShadow: "rgb(7, 42, 200) 0px -10px 0px inset", whiteSpace: "nowrap"}}>Frontend Dev </span><span> HTML , CSS</span>
-              </div>
-            </div>
-            <div className="info-box-div-2">
-              <div className='about-info-style-div'>
-               <span style={{marginLeft:"35px"}}>&lt;h3&gt;</span>
-               <div className='straightline'></div>
-               <span  style={{marginLeft:"30px"}}>&lt;/h3&gt;</span>
-              </div>
-              <div className='about-skill-info-div'>
-               <div className='skill-div'>
-                 <p style={{textAlign:"left"}}>Passionate about UI/UX. Over 3.6 years of development experience in HTML, CSS, JS frameworks.</p>
-               </div>
-              </div>
+    <section id="about" className="about">
+      <div className="section">
+        <SectionTitle>About</SectionTitle>
+
+        <AnimateOnScroll animation="fade-up">
+          <p className="about__intro">
+            I am a skilled and passionate Full Stack Developer who builds websites, mobile apps,
+            and software solutions — with 4.7 years in web development, 3.5 years in app development,
+            and 1.2 years as a software maker. I am learning and working with HTML, CSS, JavaScript,
+            PHP, Ajax, React, Flutter, Node.js, MySQL, PostgreSQL, Supabase, and MongoDB.
+          </p>
+        </AnimateOnScroll>
+
+        <AnimateOnScroll animation="fade-up" delay={100}>
+          <div className="about__stack">
+            <h3 className="about__stack-title mono">{'// tech stack'}</h3>
+            <div className="about__stack-tags">
+              {TECH_STACK.map((tech, i) => (
+                <span className="tag tag-pop" key={tech} style={{ animationDelay: `${i * 40}ms` }}>
+                  {tech}
+                </span>
+              ))}
             </div>
           </div>
-          <div className='info-box'>
-          <div className="info-box-div-1">
-              <div className="about-info-icon-div">
-               <br/><br/>
-               <TbBrandJavascript size="70px" color='white'/>
+        </AnimateOnScroll>
+
+        <div className="about__skills">
+          {skills.map(({ icon: Icon, title, tech, years, color, description }, i) => (
+            <AnimateOnScroll key={title} animation="flip-up" delay={i * 150}>
+              <div className="skill-card">
+                <div className="skill-card__header">
+                  <div className="skill-card__icon" style={{ background: `${color}18`, borderColor: `${color}40` }}>
+                    <Icon size={32} color={color} />
+                  </div>
+                  <div>
+                    <h3 className="skill-card__title">{title}</h3>
+                    <p className="skill-card__years">{years}</p>
+                    <p className="skill-card__tech mono">{tech}</p>
+                  </div>
+                </div>
+                <div className="skill-card__code mono">
+                  <span className="skill-card__tag">&lt;h3&gt;</span>
+                  <div className="skill-card__line"></div>
+                  <span className="skill-card__tag">&lt;/h3&gt;</span>
+                </div>
+                <p className="skill-card__desc">{description}</p>
               </div>
-              <div className="about-info-text-div">
-                <span style={{boxShadow: "rgb(255, 0, 127) 0px -10px 0px inset ", display: "inline"}}>Backend Dev </span><span>PHP</span>
-              </div>
-            </div>
-            <div className="info-box-div-2">
-              <div className='about-info-style-div'>
-               <span style={{marginLeft:"35px"}}>&lt;h3&gt;</span>
-               <div className='straightline'></div>
-               <span  style={{marginLeft:"30px"}}>&lt;/h3&gt;</span>
-              </div>
-              <div className='about-skill-info-div'>
-               <div className='skill-div'>
-                 <p style={{textAlign:"left"}}>Passionate about Backend. Over 3.6 years of development experience in PHP & JavaScript</p>
-               </div>
-              </div>
-            </div>
-          </div>
-          <div className='info-box'>
-          <div className="info-box-div-1">
-              <div className="about-info-icon-div">
-               <br/><br/>
-              <SiReact size="50px" color='white'/>
-              </div>
-              <div className="about-info-text-div">
-                <span style={{boxShadow: "rgb(242, 100, 25) 0px -10px 0px inset", whiteSpace: "nowrap"}}>Frontend Dev </span><span> React</span>
-              </div>
-            </div>
-            <div className="info-box-div-2">
-              <div className='about-info-style-div'>
-               <span style={{marginLeft:"35px"}}>&lt;h3&gt;</span>
-               <div className='straightline'></div>
-               <span  style={{marginLeft:"30px"}}>&lt;/h3&gt;</span>
-              </div>
-              <div className='about-skill-info-div'>
-               <div className='skill-div'>
-                 <p style={{textAlign:"left"}}>Currently learning react with some experience using JavaScript for past projects.</p>
-               </div>
-              </div>
-            </div>
-          </div>
-         </div>  
-        </center>
+            </AnimateOnScroll>
+          ))}
+        </div>
       </div>
     </section>
-    </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

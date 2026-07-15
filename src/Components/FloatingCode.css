@@ -1,0 +1,27 @@
+.floating-code {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.floating-code__symbol {
+  position: absolute;
+  font-size: 0.85rem;
+  color: rgba(var(--accent-rgb), 0.18);
+  font-weight: 600;
+  animation: floatSymbol var(--float-duration, 8s) ease-in-out infinite;
+  animation-delay: var(--float-delay, 0s);
+  user-select: none;
+}
+
+@keyframes floatSymbol {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.15;
+  }
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+    opacity: 0.35;
+  }
+}

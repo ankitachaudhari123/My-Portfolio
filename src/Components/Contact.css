@@ -1,128 +1,122 @@
-* {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+.contact {
+  background: var(--bg-primary);
 }
-.contact-section{
-    width: 100%;
-    height: auto;
-    padding: 30px;
+
+.contact__intro,
+.contact__outro {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  max-width: 700px;
+  margin-bottom: 40px;
 }
-.heading4-div{
-    width: 100%;
-    height: 80px;
-    display: inline-flex;
-    margin-top: 20px;
+
+.contact__outro {
+  margin-bottom: 0;
+  margin-top: 40px;
 }
-.heading4-hr-div{
-    width: 100%;
-    height: 80px;
+
+.contact__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
-.heading4-name-div{
-    width: 20%;
-    height: 80px;
-    display: inline-flex;
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 32px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: var(--transition);
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
 }
-.heading4-hr{
-    width: 100%;
-    height: 2px;
-    background: white;
-    border: 1px solid white;
-    margin-top: 35px;
+
+.contact-card__hint {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: -8px;
 }
-.heading4-name{
-    font-size: 50px;
-    margin-top: -1px;
-    margin-left: 10px;
-    color: white;
+
+.contact__toast {
+  position: fixed;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  background: var(--accent);
+  color: white;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  z-index: 1000;
+  box-shadow: var(--shadow-glow);
+  animation: heroFadeUp 0.4s ease both;
 }
-.dot4-div{
-    width: 10px;
-    height: 10px;
-    background: rgb(140, 137, 137);
-    margin-top: 45px;
-    margin-left: 8px;
-    border-radius: 50%;
+
+.contact-card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: var(--shadow-glow);
 }
-.contact-div{
-    width: 100%;
-    margin-top: 50px;
+
+.contact-card__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(var(--accent-rgb), 0.12);
+  border: 1px solid rgba(var(--accent-rgb), 0.28);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-light);
+  transition: var(--transition);
 }
-.contact-text-div{
-    width: 60%;
+
+.contact-card:hover .contact-card__icon {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
 }
-.contact-text{
-    font-size: 16px;
-    text-align: left;
-    color: white;
+
+.contact-card__label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  word-break: break-word;
 }
-.contact-icon-div{
-    width: 24%;
-    margin-top: 30px;
+
+.contact-card:hover .contact-card__label {
+  color: var(--text-primary);
 }
-.contact-social-icon-div{
-    display: inline-flex;
-    width: 100%;
-    gap: 10px;
+
+@media (max-width: 900px) {
+  .contact__cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }
-.contact-social-text{
-    font-size: 16px;
-    color: white;
-}
-.heading4-hr-div-2{
-    display: none;
-}
-.heading4-hr-2{
-    display: none;
-}
-@media (max-width: 600px) {
-    .contact-section{
-        padding: 10px;
-    }
-    .contact-text-div{
-        width: 100%;
-    }
-    .contact-icon-div{
-        width: 100%;
-        margin-top: 30px;
-    }
-       
-}
-@media (max-width: 1280px) {
-    .heading4-div{
-        height: 75px;
-        margin-top: 0px;
-        display: block;
-    }
-    .heading4-hr-div{
-        display: none;
-    }
-    .heading4-name-div{
-        width: 100%;
-        height: 65px;
-        display: inline-flex;
-    }
-    .heading4-hr{
-        display: none;
-    }
-    .heading4-name{
-        margin-left: 0px;
-        margin-top: -5px;
-    }
-    .dot2-div{
-        margin-top: 40px;
-    }
-    .heading4-hr-div-2{
-        display: block;
-        width: 100%;
-        height: 10px;
-    }
-    .heading4-hr-2{
-        display: block;
-        width: 100%;
-        height: 2px;
-        background: white;
-        border: 1px solid white;
-        margin-left: 0%;
-    }
+
+@media (max-width: 480px) {
+  .contact__intro,
+  .contact__outro {
+    font-size: 0.9rem;
+    margin-bottom: 28px;
+  }
+
+  .contact-card {
+    padding: 24px 20px;
+  }
+
+  .contact-card__label {
+    font-size: 0.85rem;
+  }
 }

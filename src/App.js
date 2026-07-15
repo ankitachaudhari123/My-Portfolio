@@ -1,23 +1,30 @@
 import React from 'react'
 import MyPortfolio from './Components/MyPortfolio'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import AllProject from '../src/Components/AllProject'
+import AllProject from './Components/AllProject'
+import RootLayout from './RootLayout'
 
 const router = createBrowserRouter([
   {
-    path:"/allproject",
-    element: <AllProject/>,
-  },
-  {
-    path:"/",
-    element: <MyPortfolio />,
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      {
+        path: "allproject",
+        element: <AllProject />,
+      },
+      {
+        index: true,
+        element: <MyPortfolio />,
+      },
+    ],
   },
 ]);
 
 const App = () => {
   return (
     <>
-    <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </>
   )
 }

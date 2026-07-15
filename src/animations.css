@@ -1,0 +1,150 @@
+/* ── Scroll reveal ── */
+.aos {
+  opacity: 0;
+  transition:
+    opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: var(--aos-delay, 0ms);
+}
+
+.aos--visible {
+  opacity: 1;
+  transform: none !important;
+}
+
+.aos--fade-up    { transform: translateY(40px); }
+.aos--fade-down  { transform: translateY(-30px); }
+.aos--fade-left  { transform: translateX(-40px); }
+.aos--fade-right { transform: translateX(40px); }
+.aos--zoom-in    { transform: scale(0.92); }
+.aos--flip-up    { transform: perspective(600px) rotateX(12deg) translateY(30px); }
+
+/* ── Hero entrance stagger ── */
+.hero-enter {
+  opacity: 0;
+  animation: heroFadeUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  animation-delay: var(--enter-delay, 0ms);
+}
+
+@keyframes heroFadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Gradient text shift ── */
+.gradient-animate {
+  background-size: 200% auto;
+  animation: gradientShift 4s linear infinite;
+}
+
+@keyframes gradientShift {
+  0%   { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+/* ── Blinking cursor ── */
+.cursor-blink::after {
+  content: '|';
+  color: var(--accent-hot);
+  animation: blink 1s step-end infinite;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
+}
+
+/* ── Button shine ── */
+.btn-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shine::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.55s ease;
+}
+
+.btn-shine:hover::before {
+  left: 150%;
+}
+
+/* ── Section title line draw ── */
+.section-title .line {
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+}
+
+.section-title--visible .line {
+  transform: scaleX(1);
+}
+
+.section-title .dot {
+  transform: scale(0);
+  transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) 0.1s;
+}
+
+.section-title--visible .dot {
+  transform: scale(1);
+}
+
+/* ── Tag pop (triggered when parent scrolls in) ── */
+.aos--visible .tag-pop {
+  animation: tagPop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  animation-delay: var(--tag-delay, 0ms);
+}
+
+@keyframes tagPop {
+  from { opacity: 0; transform: scale(0.6); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* ── Icon float ── */
+.icon-float {
+  animation: iconFloat 3s ease-in-out infinite;
+  animation-delay: var(--float-delay, 0s);
+}
+
+@keyframes iconFloat {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-6px); }
+}
+
+/* ── Glow pulse ── */
+.glow-pulse {
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 20px var(--accent-glow); }
+  50%      { box-shadow: 0 0 40px rgba(var(--accent-rgb), 0.5); }
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  .aos,
+  .hero-enter,
+  .gradient-animate,
+  .cursor-blink::after,
+  .icon-float,
+  .glow-pulse,
+  .tag-pop {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .section-title .line,
+  .section-title .dot {
+    transform: none !important;
+  }
+}

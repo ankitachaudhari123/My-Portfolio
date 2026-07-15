@@ -1,66 +1,61 @@
-import React from 'react'
-import './Experience.css'
+import React from 'react';
+import './Experience.css';
+import SectionTitle from './SectionTitle';
+import AnimateOnScroll from './AnimateOnScroll';
+import { TECH_STACK } from '../data/techStack';
+
+const skills = [...TECH_STACK, 'Git', 'GitHub'];
 
 const Experience = () => {
   return (
-    <>
-      <section  id='experience'>
-        <div className='experience-section'>
-          <div className='heading3-div'>
-            <div className='heading3-name-div'>
-              <h1 className='heading3-name'>Experience</h1>
-              <div className='dot3-div'></div>
+    <section id="experience" className="experience">
+      <div className="section">
+        <SectionTitle>Experience</SectionTitle>
+        <AnimateOnScroll animation="fade-up">
+          <div className="timeline">
+            <div className="timeline__marker">
+              <div className="timeline__dot glow-pulse"></div>
+              <div className="timeline__line"></div>
             </div>
-            <div className='heading3-hr-div'>
-             <hr className='heading3-hr'></hr>
+            <div className="timeline__content">
+              <div className="exp-card">
+                <div className="exp-card__header">
+                  <div>
+                    <h3 className="exp-card__company">DMS Computers and Technology</h3>
+                    <p className="exp-card__role">Full Stack Developer — Websites, Apps &amp; Software</p>
+                    <p className="exp-card__location">Palghar, Maharashtra</p>
+                  </div>
+                  <span className="exp-card__date">Jan 2022 - Jun 2025</span>
+                </div>
+                <div className="exp-card__body">
+                  <p>
+                    In my role at DMSTech, I have built websites, apps, and software across the full
+                    stack — 4.7 years in web development, 3.5 years in app development, and 1.2 years
+                    as a software maker. I have contributed to numerous projects, including over five
+                    websites, mobile apps like Get It Split, and full-stack software solutions.
+                  </p>
+                  <p>
+                    I work with HTML, CSS, JavaScript, PHP, and Ajax to build engaging frontends and
+                    powerful backends. My toolkit includes React and Flutter for apps, plus Node.js
+                    for server-side development.
+                  </p>
+                  <p>
+                    I am continuously learning modern databases and backend tools — MySQL, PostgreSQL,
+                    Supabase, and MongoDB — to build scalable, production-ready full-stack applications.
+                  </p>
+                </div>
+                <div className="exp-card__skills">
+                  {skills.map((skill, i) => (
+                    <span className="tag tag-pop" key={skill} style={{ animationDelay: `${i * 50}ms` }}>{skill}</span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
-          <center>
-          <div className='experience-info-div'>
-            <div className="company-name-div">
-              <div className="company-name">
-                <span className="company-name-text">DMS Computers and Technology</span>
-                <span className="jonning-year">Jan 2022 - Jun 2025</span>
-              </div>
-              <div className="company-duration">
-                <span className="work-from-company">Full Stack Developer</span>
-                <span className="company-location">Palghar, Maharashtra</span>
-              </div>
-            </div>
-            <div className="experience-info">
-              <span>
-                In my current role at DMSTech, I've accrued over a year of invaluable experience, during which I've made substantial contributions to numerous projects. Notably, I've played a pivotal role in the creation of over five websites, including noteworthy projects like Furniture and a Farm House Website. 
-                <br/> 
-                In addition to my website development duties, I've diversified my skill set by mastering HTML, CSS, JavaScript, PHP, and Ajax. 
-                <br/>
-                 By harnessing these technologies, I've engineered captivating frontend experiences for a multitude of websites.
-                <br/>
-                 Moreover, I've broadened my expertise by constructing websites with comprehensive backend functionality, showcasing my proficiency across the entire development spectrum. 
-                <br/>
-                Presently, I'm proactively honing my abilities by delving into React, with a particular emphasis on advancing my prowess in backend development.
-              </span><br/><br/>
-            </div>
-            <div className="language-skills-names-div">
-              <span>PHP</span>
-              <span>React</span>
-              <span>JavaScript</span>
-              <span>Flutter</span>
-              <span>GitHub</span>
-              <span>Git</span>
-              <span>MySql</span>
-              <span>Ajax</span>
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>Boostrap</span>
-              <span>WordPress</span>
-              <span>Wix</span>
-            </div>
-          </div>
-          </center>
-        </div>
-      </section>
-    </>
-  )
-}
+        </AnimateOnScroll>
+      </div>
+    </section>
+  );
+};
 
-export default Experience
+export default Experience;
